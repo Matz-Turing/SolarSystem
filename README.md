@@ -8,7 +8,7 @@ Este projeto renderiza uma simulação interativa do nosso Sistema Solar em temp
 
 ##  Demonstração
 
-![Screenshot 1](img/1.png)
+![Screenshot 1](img/1.gif)
 *A página inicial com a navegação e introdução ao site.*
 
 ##  Funcionalidades
