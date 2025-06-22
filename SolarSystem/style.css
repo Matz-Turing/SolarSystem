@@ -1,0 +1,148 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    font-family: 'Arial', sans-serif;
+    background-color: #000010;
+    color: #fff;
+}
+
+#scene-container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+#solarSystemCanvas {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+#info-panel {
+    position: fixed;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    width: 300px;
+    max-height: 90vh;
+    overflow-y: auto;
+    background-color: rgba(20, 20, 50, 0.9);
+    border: 1px solid #444;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    z-index: 100;
+    transition: right 0.5s ease-in-out;
+}
+
+#info-panel.info-panel-hidden {
+    right: -350px;
+}
+
+#info-panel h2 {
+    margin-top: 0;
+    color: #00aaff;
+    text-align: center;
+    border-bottom: 1px solid #555;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+#info-panel p {
+    margin: 10px 0;
+    line-height: 1.6;
+    font-size: 0.9em;
+}
+
+#info-panel p strong {
+    color: #99ccff;
+}
+
+#info-panel #planet-image {
+    border: 2px solid #555;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+#close-info-panel {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #ff4444;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    line-height: 30px;
+    text-align: center;
+}
+
+#close-info-panel:hover {
+    background-color: #dd3333;
+}
+
+#planet-selector-menu {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(30, 30, 60, 0.85);
+    padding: 10px 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    z-index: 50;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+#planet-selector-menu h3 {
+    margin: 0 15px 0 0;
+    font-size: 1em;
+    color: #cccccc;
+}
+
+#planet-selector-menu button {
+    padding: 8px 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9em;
+    transition: background-color 0.3s ease;
+}
+
+#planet-selector-menu button:hover {
+    background-color: #0056b3;
+}
+
+#planet-selector-menu button:focus {
+    outline: 2px solid #00aaff;
+    outline-offset: 2px;
+}
+
+#info-panel::-webkit-scrollbar {
+    width: 8px;
+}
+
+#info-panel::-webkit-scrollbar-track {
+    background: rgba(0,0,0,0.1);
+    border-radius: 4px;
+}
+
+#info-panel::-webkit-scrollbar-thumb {
+    background: #555;
+    border-radius: 4px;
+}
+
+#info-panel::-webkit-scrollbar-thumb:hover {
+    background: #777;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solar System by Mateus S.</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/icon.png" type="image/png">
+</head>
+<body>
+    <div id="scene-container">
+        <canvas id="solarSystemCanvas"></canvas>
+    </div>
+
+    <div id="info-panel" class="info-panel-hidden">
+        <button id="close-info-panel">X</button>
+        <h2 id="planet-name">Nome do Planeta</h2>
+        <img id="planet-image" src="" alt="Imagem do Planeta" style="width:100px; height:auto; display:block; margin:10px auto;">
+        <p><strong>Diâmetro:</strong> <span id="planet-diameter"></span></p>
+        <p><strong>Massa:</strong> <span id="planet-mass"></span></p>
+        <p><strong>Distância do Sol:</strong> <span id="planet-distance"></span></p>
+        <p><strong>Período Orbital:</strong> <span id="planet-orbital-period"></span></p>
+        <p><strong>Período de Rotação:</strong> <span id="planet-rotation-period"></span></p>
+        <p><strong>Temperatura Média:</strong> <span id="planet-temperature"></span></p>
+        <p><strong>Luas Conhecidas:</strong> <span id="planet-moons"></span></p>
+        <p><strong>Curiosidade:</strong> <span id="planet-fact"></span></p>
+    </div>
+
+    <div id="planet-selector-menu">
+        <h3>Selecionar Astro:</h3>
+        <button data-planet="sun">Sol</button>
+        <button data-planet="mercury">Mercúrio</button>
+        <button data-planet="venus">Vênus</button>
+        <button data-planet="earth">Terra</button>
+        <button data-planet="mars">Marte</button>
+        <button data-planet="jupiter">Júpiter</button>
+        <button data-planet="saturn">Saturno</button>
+        <button data-planet="uranus">Urano</button>
+        <button data-planet="neptune">Netuno</button>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://unpkg.com/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tween.js/18.6.4/tween.umd.js"></script>
+    <script src="script.js"></script> {/* Assumindo que seu JavaScript está em script.js */}
+</body>
+</html>
