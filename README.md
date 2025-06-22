@@ -9,15 +9,15 @@ Este projeto renderiza uma simulação interativa do nosso Sistema Solar em temp
 ##  Demonstração em tempo real
 
 ![Screenshot 1](img/1.gif)
-*Sistema Solar em funcionamento.*
+*Sistema Solar em funcionamento*
 
 ##  Telas de Captura
 
 ![Screenshot 1](img/2.png)
-*Screenshot.*
+*Screenshot 1*
 
 ![Screenshot 2](img/3.png)
-*Screenshot.*
+*Screenshot 2*
 
 ##  Funcionalidades
 
