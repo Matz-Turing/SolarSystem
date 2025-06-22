@@ -75,4 +75,4 @@ solar-system-3d/
 
 **Mateus S.**
 
--   GitHub: [@seu-usuario](https://github.com/Matz-Turing)
+-   GitHub: [@Matz-Turing](https://github.com/Matz-Turing)
