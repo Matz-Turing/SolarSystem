@@ -1,4 +1,4 @@
-#  Sistema Solar 3D por Mateus S.
+#  Sistema Solar
 
 Um projeto de visualização 3D do Sistema Solar, desenvolvido com **Three.js**, que permite ao usuário explorar os planetas, suas órbitas e obter informações detalhadas sobre cada corpo celeste.
 
