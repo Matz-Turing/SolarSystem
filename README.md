@@ -71,10 +71,6 @@ solar-system-3d/
 └── 📄 README.md       (Esta documentação)
 ```
 
-##  Licença
-
-Este projeto está sob a licença MIT. Veja o arquivo `LICENSE` para mais detalhes.
-
 ##  Autor
 
 **Mateus S.**
