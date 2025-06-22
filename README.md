@@ -6,10 +6,18 @@ Um projeto de visualização 3D do Sistema Solar, desenvolvido com **Three.js**,
 
 Este projeto renderiza uma simulação interativa do nosso Sistema Solar em tempo real, diretamente no navegador. Utilizando a biblioteca **Three.js** para a criação de cenas 3D com WebGL, a aplicação exibe o Sol, os planetas e suas órbitas, com movimentos de rotação e translação. O usuário pode navegar livremente pelo espaço, focar em planetas específicos e clicar neles para abrir um painel com dados e curiosidades, como diâmetro, massa, período orbital e temperatura.
 
-##  Demonstração
+##  Demonstração em tempo real
 
 ![Screenshot 1](img/1.gif)
-*A página inicial com a navegação e introdução ao site.*
+*Sistema Solar em funcionamento.*
+
+##  Telas de Captura
+
+![Screenshot 1](img/2.png)
+*Screenshot.*
+
+![Screenshot 2](img/3.png)
+*Screenshot.*
 
 ##  Funcionalidades
 
