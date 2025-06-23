@@ -38,18 +38,18 @@ Este projeto renderiza uma simulação interativa do nosso Sistema Solar em temp
 -   **Fundo Estrelado (Starfield):** Um campo de estrelas gerado proceduralmente para criar uma imersão maior no ambiente espacial.
 -   **Design Responsivo:** A interface se adapta a diferentes tamanhos de tela.
 
-## 🛠 Tecnologias Utilizadas
+##  Tecnologias Utilizadas
 
 -   **Frontend:**
     -   HTML5
     -   CSS3
     -   JavaScript (ES6+)
 -   **Biblioteca 3D:**
-    -   [**Three.js**](https://threejs.org/) (r128) - O motor principal para a renderização 3D via WebGL.
+    -   Three.js - O motor principal para a renderização 3D via WebGL.
 -   **Componentes do Three.js:**
-    -   `OrbitControls.js` - Para a navegação interativa com o mouse.
+    -   OrbitControls.js - Para a navegação interativa com o mouse.
 -   **Animação:**
-    -   [**Tween.js**](https://github.com/tweenjs/tween.js/) - Para criar as animações suaves de transição da câmera.
+    -   Tween.js - Para criar as animações suaves de transição da câmera.
 
 ##  Como Executar o Projeto Localmente
 
@@ -57,27 +57,7 @@ Para executar este projeto em sua máquina, você precisará de um servidor loca
 
 **Pré-requisitos:**
 *   Um navegador web moderno (Chrome, Firefox, Edge).
-*   [Node.js](https://nodejs.org/) (opcional, para usar `live-server`) ou [Python](https://www.python.org/) (geralmente já vem instalado em Linux/macOS).
-
-##  Estrutura do Projeto
-
-```
-solar-system-3d/
-├── 📁 img/
-│   ├── 📄 earth.jpg
-│   ├── 📄 jupiter.jpg
-│   └── ... (outras imagens para o painel de informações)
-├── 📁 textures/
-│   ├── 📄 sun.jpg
-│   ├── 📄 earth.jpg
-│   ├── 📄 saturn_ring.png
-│   └── ... (outras texturas para os modelos 3D)
-├── 📄 index.html      (A estrutura principal da página)
-├── 📄 style.css       (As regras de estilização da interface)
-├── 📄 script.js       (Toda a lógica da aplicação com Three.js)
-├── 📄 favicon.png     (O ícone que aparece na aba do navegador)
-└── 📄 README.md       (Esta documentação)
-```
+*   Node.js (opcional, para usar `live-server`) ou Python (geralmente já vem instalado em Linux/macOS).
 
 ##  Autor
 
